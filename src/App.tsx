@@ -5,6 +5,7 @@ import { IconButtonPage } from './pages/IconButtonPage';
 import { LinkButtonPage } from './pages/LinkButtonPage';
 import { ButtonGroupPage } from './pages/ButtonGroupPage';
 import { MultiSelectPage } from './pages/MultiSelectPage';
+import { ValidationDemoPage } from './pages/ValidationDemoPage';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="link-button" element={<LinkButtonPage />} />
           <Route path="button-group" element={<ButtonGroupPage />} />
           <Route path="multi-select" element={<MultiSelectPage />} />
+          <Route path="form-validation" element={<ValidationDemoPage />} />
         </Route>
       </Routes>
     </Router>

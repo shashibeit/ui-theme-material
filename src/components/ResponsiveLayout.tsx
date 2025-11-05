@@ -9,6 +9,7 @@ const navItems = [
   { path: '/link-button', label: 'LinkButton', icon: '🔗' },
   { path: '/button-group', label: 'ButtonGroup', icon: '📑' },
   { path: '/multi-select', label: 'MultiSelect', icon: '📋' },
+  { path: '/form-validation', label: 'Form Validation', icon: '✅' },
 ];
 
 export const ResponsiveLayout: React.FC = () => {
