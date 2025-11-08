@@ -10,6 +10,8 @@ const navItems = [
   { path: '/button-group', label: 'ButtonGroup', icon: '📑' },
   { path: '/multi-select', label: 'MultiSelect', icon: '📋' },
   { path: '/form-validation', label: 'Form Validation', icon: '✅' },
+  { path: '/drag-drop-grid', label: 'Drag & Drop Grid', icon: '🎯' },
+  { path: '/config-examples', label: 'API Configuration', icon: '⚙️' },
 ];
 
 export const ResponsiveLayout: React.FC = () => {

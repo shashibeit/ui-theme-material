@@ -6,6 +6,8 @@ import { LinkButtonPage } from './pages/LinkButtonPage';
 import { ButtonGroupPage } from './pages/ButtonGroupPage';
 import { MultiSelectPage } from './pages/MultiSelectPage';
 import { ValidationDemoPage } from './pages/ValidationDemoPage';
+import { DragDropGridPage } from './pages/DragDropGridPage';
+import { ConfigExamplePage } from './pages/ConfigExamplePage';
 import './App.css';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path="button-group" element={<ButtonGroupPage />} />
           <Route path="multi-select" element={<MultiSelectPage />} />
           <Route path="form-validation" element={<ValidationDemoPage />} />
+          <Route path="drag-drop-grid" element={<DragDropGridPage />} />
+          <Route path="config-examples" element={<ConfigExamplePage />} />
         </Route>
       </Routes>
     </Router>
